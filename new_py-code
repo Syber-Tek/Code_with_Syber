@@ -1,0 +1,23 @@
+user = input("Enter a character: ")
+
+
+vowel = ['a','e','i','o','u','A','E','I','O','U',]
+consonants = ['B', 'C', 'D', 'F', 'G', 'H', 'J', 'K', 'L', 'M', 'N', 'P', 'Q', 'R', 'S', 'T', 'V', 'X', 'Z','W', 'Y','b', 'c', 'd', 'f', 'g', 'h', 'j', 'k', 'l', 'm', 'n', 'p', 'q', 'r', 's', 't', 'v', 'w', 'x', 'y', 'z']
+
+if user in vowel:
+    print("This character is  a vowel")
+    user2 = int(input("Enter a number: "))
+    if (user2%2) == 0:
+        print("This is an even number!")
+    else:
+        print("This is an odd number!")
+elif user in consonants:
+    print("This character is a consonant")
+    user3 = int(input("Enter a number: "))
+    if user3 > 0:
+        print("The number is negative")
+    else:
+        print("The number is positive")
+
+
+
